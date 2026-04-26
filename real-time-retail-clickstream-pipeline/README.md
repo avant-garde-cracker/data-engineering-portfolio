@@ -1,5 +1,6 @@
 # Overview:-
 
+
 This project implements a production-style real-time data pipeline for e-commerce clickstream analytics. It ingests transactional data, processes it in near real-time, stores it in an analytics database, and visualizes insights via a live dashboard.
 
 The pipeline simulates systems used by companies like Flipkart, Meesho, and Myntra for real-time business monitoring.
@@ -177,6 +178,9 @@ $ bin/start-micro-quickstart
 - You should be able to open in local: http://localhost:8888/unified-console.html
 - Spark does not have a native Druid Sink.
 - So we will be using HTTP ingestion API.
+- Below is the query after storing the data in Druid:-
+
+![Druid-UI-data](images/Druid-UI-query.png)
 
 # Grafana
 
